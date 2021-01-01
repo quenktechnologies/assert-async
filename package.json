@@ -1,6 +1,6 @@
 {
   "name": "@quenk/assert-async",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "@quenk/test assertion API wrapped in Futures.",
   "files": [
     "lib"
