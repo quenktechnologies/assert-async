@@ -1,0 +1,24 @@
+{
+  "name": "@quenk/assert-async",
+  "version": "0.0.1",
+  "description": "@quenk/test assertion API wrapped in Futures.",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha $(find -name *_test.ts)"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Quenk Technologies <dev@quenk.com> (http://quenk.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@quenk/noni": "^1.40.14",
+    "@quenk/test": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/json-stringify-safe": "^5.0.0",
+    "@types/node": "^14.14.19",
+    "typescript": "^4.1.3"
+  }
+}
